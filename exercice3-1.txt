@@ -1,0 +1,16 @@
+Algorithme valeur_absolue;
+Var
+a,b,difference:reels;
+Debut
+afficher "veuillez entrer un nombre a ";
+saisir a ;
+afficher "veuillez entrer un nombre b";
+saisir b;
+difference réçoit a-b;
+si difference >= 0 alors :
+afficher difference ;
+sinon 
+afficher -1*difference;
+fin si
+Fin
+	
