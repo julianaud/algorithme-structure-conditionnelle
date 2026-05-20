@@ -1,0 +1,16 @@
+Algorithme: feux_de_signalisation
+Var 
+couleur: chaines de caracteres; 
+Debut 
+ afficher "veuillez entrer la couleur affichée "
+  saisir couleur
+si couleur="rouge" alors:
+  afficher "s'arreter";
+sinon si couleur="vert" alors:
+  afficher"passer";
+sinon si couleur="orange" alors:
+  afficher"ralentir";
+sinon 
+  afficher "couleur invalide";
+fin si
+Fin
