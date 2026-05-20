@@ -1,0 +1,11 @@
+Algorithme: annee_naissance
+Var
+a , b , age , annee: entiers;
+Debut
+Afficher " veuillez entrer votre année de naissance"
+saisi a 
+b réçoit 2026-a 
+si b<10 alors 
+afficher "vous avez moins de 10 ans"
+fin si 
+Fin
